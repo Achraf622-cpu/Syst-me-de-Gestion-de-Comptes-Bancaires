@@ -28,7 +28,7 @@ public class CompteCourant extends Compte {
 
 	@Override
 	public BigDecimal calculerInteret() {
-		return BigDecimal.ZERO; // no interest for checking account
+		return BigDecimal.ZERO;
 	}
 
 	@Override
